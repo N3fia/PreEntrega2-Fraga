@@ -21,6 +21,7 @@
 		<title>Galeria</title>
 	</head>
 	<body>
+		<div id="grid">
 		<header>
 			<nav class="navbar navbar-expand-lg bg-body-tertiary">
 				<div class="container-fluid">
@@ -53,36 +54,15 @@
 				</div>
 			</nav>
 		</header>
-		<!-- <br /> -->
-		<main class="skyline">
-			<div class=""><h1>Galería</h1></div>
-			<div class="">
-				<div class=""><h2>Alumnos</h2></div>
-				<div><p>foto1</p></div>
-				<div><p>foto2</p></div>
-				<div><p>foto3</p></div>
-				<div><p>foto4</p></div>
-				<div><p>foto5</p></div>
-				<h2>Tutoriales</h2>
-				<table>
-					<tbody>
-						<tr>
-							<td>
-								<iframe
-									width="917"
-									height="688"
-									src="https://www.youtube.com/embed/lLWEXRAnQd0"
-									title="Bob Ross - Island in the Wilderness (Season 29 Episode 1)"
-									frameborder="0"
-									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-									referrerpolicy="strict-origin-when-cross-origin"
-									allowfullscreen
-								></iframe>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
+		<main class="grid-main skyline"> <!-- ESTILIZAR GRID MAIN -->
+			<div class="grid-main-item"><h1>Galería</h1></div>
+			<div class="grid-main-item grid-container">
+				<div class="grid-item"><p>foto0</p></div>
+				<div class="grid-item"><p>foto1</p></div>
+				<div class="grid-item"><p>foto3</p></div>
+				<div class="grid-item"><p>foto4</p></div>
+				<div class="grid-item"><p>foto2</p></div>
+				<div class="grid-item"><p>foto5</p></div>
 		</main>
 		<footer class="flex-center-xy flex-direction-column">
 			<p>Made by N3fia</p>
@@ -101,6 +81,7 @@
 				</svg>
 			</a>
 		</footer>
+	</div>
 		<script
 			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
 			integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
